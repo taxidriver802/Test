@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+} 
+
+.balls {
+  background-color: red;
+  height: 400px; width: 400px; 
+  border: 5px dotted purple;
+  border-radius: 400px;
+  
 }
 
 .App-logo {
