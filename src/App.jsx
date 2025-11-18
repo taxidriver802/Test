@@ -1,27 +1,21 @@
-import logo from './logo.svg';
+import logo from './ball.avif';
 import './App.css';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
-
-function BALLS() {
-  alert("BALLS");
-
-}
+  const handleClick = () => {
+    toast('BALLS (but prettier)');
+  };
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      
-  <button className="balls" onClick={BALLS}>balls</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="balls_text">balls</p>
+        <button className="balls" onClick={handleClick}></button>
+        <ToastContainer />
       </header>
     </div>
   );
