@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
 function BALLS() {
-  console.say("BALLS", native-french, AAVE);
+  console.say("BALLS");
 
 }
 
